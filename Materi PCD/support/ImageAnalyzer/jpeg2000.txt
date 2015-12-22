@@ -1,0 +1,80 @@
+The following is from the JasPer Software Reference Manual (Version 1.600.0)
+  Michael D. Adams
+  Assistant Professor
+  Dept. of Electrical and Computer Engineering
+  University of Victoria
+  Victoria, BC, Canada
+  http://www.ece.uvic.ca/~mdadams/jasper/
+
+imgareatlx=x
+  Set the x-coordinate of the top-left corner of the image area to x.
+imgareatly=y
+  Set the y-coordinate of the top-left corner of the image area to y.
+tilegrdtlx=x
+  Set the x-coordinate of the top-left corner of the tiling grid to x.
+tilegrdtly=y
+  Set the y-coordinate of the top-left corner of the tiling grid to y.
+tilewidth=w
+  Set the nominal tile width to w.
+tileheight=h
+  Set the nominal tile height to h.
+prcwidth=w
+  Set the precinct width to w. The argument w must be an integer power of two. The default
+  value is 32768.
+prcheight=h
+  Set the precinct height to h. The argument h must be an integer power of two. The default
+  value is 32768.
+cblkwidth=w
+  Set the nominal code block width to w. The argument w must be an integer power of two.
+  The default value is 64.
+cblkheight=h
+  Set the nominal code block height to h. The argument h must be an integer power of two. 
+  The default value is 64.
+mode=m
+  Set the coding mode to m. The argument m must have one of the following values:
+    int  : integer mode
+    real : real mode    
+  If lossless coding is desired, the integer mode must be used. By default, the integer mode
+  is employed. The choice of mode also determines which multicomponent and wavelet transforms
+  (if any) are employed.  
+rate=r
+  Specify the target rate. The argument r is a positive real number. Since a rate of one 
+  corresponds to no compression, one should never need to explicitly specify a rate greater 
+  than one. By default, the target rate is considered to be infinite.
+ilyrrates=r0[,r1,. . . ,rN  
+  Specify the rates for any intermediate layers. The argument to this option is a comma 
+  separated list of N rates. Each rate is a positive real number. The rates must increase 
+  monotonically. The last rate in the list should be less than or equal to the overall rate 
+  (as specified with the rate option).
+prg=p
+  Set the progression order to p. The argument p must have one of the following values:
+    lrcp : layer-resolution-component-position (LRCP) progressive (i.e., rate scalable)
+    rlcp : resolution-layer-component-position (RLCP) progressive (i.e., resolution scalable)
+    rpcl : resolution-position-component-layer (RPCL) progressive
+    pcrl : position-component-resolution-layer (PCRL) progressive
+    cprl : component-position-resolution-layer (CPRL) progressive
+  By default, LRCP progressive ordering is employed. Note that the RPCL and PCRL 
+  progressions are not valid for all possible image geometries. (See [4] for more details.)
+nomct
+  Disallow the use of any multicomponent transform.
+numrlvls=n
+  Set the number of resolution levels to n. The argument n must be an integer that is 
+  greater than or equal to one. The default value is 6.
+sop
+  Generate SOP marker segments.
+eph
+  Generate EPH marker segments.
+lazy
+  Enable lazy coding mode (a.k.a. arithmetic coding bypass).
+termall
+  Terminate all coding passes.
+segsym
+  Use segmentation symbols.
+vcausal
+  Use vertically stripe causal contexts.
+pterm
+  Use predictable termination.
+resetprob
+  Reset the probability models after each coding pass.
+numgbits=n
+  Set the number of guard bits to n.

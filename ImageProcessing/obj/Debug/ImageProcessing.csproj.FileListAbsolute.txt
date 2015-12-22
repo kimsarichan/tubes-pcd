@@ -1,0 +1,17 @@
+D:\kuliah\citra digital\ImageProcessing\bin\Debug\ImageProcessing.exe
+D:\kuliah\citra digital\ImageProcessing\bin\Debug\ImageProcessing.pdb
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.csprojResolveAssemblyReference.cache
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.BrightnessForm.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.ContrastForm.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.CropForm.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.GammaForm.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.ImageInfo.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.ImageProcessing.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.InsertImageForm.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.InsertShapeForm.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.InsertTextForm.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.Properties.Resources.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.InsertTextForm1.resources
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.csproj.GenerateResource.Cache
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.exe
+D:\kuliah\citra digital\ImageProcessing\obj\Debug\ImageProcessing.pdb
